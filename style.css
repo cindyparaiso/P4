@@ -291,7 +291,7 @@ a:hover {
     margin-bottom: 0;
 }
 .navbar-header {
-    width: 85%;
+    width: 25%;
 }
 
 .navbar-brand {
@@ -664,6 +664,15 @@ a {
 p {
     font-size: 15.5px;
 }
+
+.psize {
+    font-size: 14px;
+    color: #000000;
+}
+
+:required {
+    background-color: #F3976C;
+}    
 
 .tight-width-whitespace {
     max-width: 600px;
