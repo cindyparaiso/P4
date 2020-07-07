@@ -1,0 +1,3 @@
+User-Agent: *
+Sitemap: https://cindyparaiso.github.io/P4/lachouetteagenceweb/sitemap.xml
+Allow: /*
