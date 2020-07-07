@@ -1020,7 +1020,7 @@ h4 {
     .navbar-header {
         flex-wrap: wrap;
     }
-    footer {
+    footer  {
         display: flex;
         flex-direction: row;
     }
