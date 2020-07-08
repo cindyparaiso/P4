@@ -809,10 +809,6 @@ h4 {
     background-image: url("img/image-de-presentation.jpg");
 }
 
-tify-content: center;
-    align-items: center;
-}
-
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1014,6 +1010,12 @@ tify-content: center;
         width: 180px;
         height: 320px;
     }
+    .social {
+        display: flex;
+        flex-direction: row;
+        align-items: space-around;
+        justify-content: space-around;
+    }    
 }
 
 @media (max-width: 400px) {
@@ -1023,10 +1025,6 @@ tify-content: center;
     }
     .navbar-header {
         flex-wrap: wrap;
-    }
-    footer  {
-        display: flex;
-        flex-direction: row;
     }
 }
 
