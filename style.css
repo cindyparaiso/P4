@@ -660,7 +660,7 @@ p {
 
 .navbar-header {
     display: flex;
-    align-items: space-between;
+    align-items: stretch;
 }
 
  
@@ -1007,6 +1007,7 @@ label, .pcontact  {
     }
     form {
         padding: 5px;
+        margin-top: 30px;
     }
     .close-lightbox {
         display: inline-block;
@@ -1024,7 +1025,7 @@ label, .pcontact  {
     .social {
         display: flex;
         flex-direction: row;
-        align-items: space-around;
+        align-items: stretch;
         justify-content: space-around;
     }    
 }
