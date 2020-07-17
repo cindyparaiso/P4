@@ -328,11 +328,14 @@ a:hover {
 
 .nav li {
     text-decoration: underline;
+    color: #000000!important;
 }
 
 .nav > li a:hover,
 .nav > li a:focus {
     background: #F3976C;
+    color: #000000!important;
+    font-weight: bolder;
 }
  
 
