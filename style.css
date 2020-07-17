@@ -326,10 +326,13 @@ a:hover {
     text-align: inherit;
 }
 
+.nav li {
+    text-decoration: underline;
+}
+
 .nav > li a:hover,
 .nav > li a:focus {
     background: #F3976C;
-    text-decoration: underline;
 }
  
 
