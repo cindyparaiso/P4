@@ -300,7 +300,14 @@ a:hover {
     margin: 0 5px 0 0;
     display: inline;
 }
+.navbar-brand img:hover,
+.navbar-brand img:focus {
+    background:#F8C7FF;
+}
 
+.col-sm-6 img:hover {
+    border: 5px inset #F3976C;
+}
 .navbar-brand img[src$=svg] {
     min-width: 100px;
 }
