@@ -303,10 +303,12 @@ a:hover {
 .navbar-brand img:hover,
 .navbar-brand img:focus {
     background:#F8C7FF;
+    border-radius: 9px;
+    border: 2px outset #000000; 
 }
 
 .col-sm-6 img:hover {
-    border: 5px inset #F3976C;
+    border: 9px outset #F3976C;
 }
 .navbar-brand img[src$=svg] {
     min-width: 100px;
@@ -333,9 +335,10 @@ a:hover {
     text-align: inherit;
 }
 
-.nav li {
+.nav li a {
     text-decoration: underline;
-    color: #000000!important;
+    color: #000000;
+    font-weight: bold; 
 }
 
 .nav > li a:hover,
@@ -343,6 +346,8 @@ a:hover {
     background: #F3976C;
     color: #000000!important;
     font-weight: bolder;
+    border-radius: 9px;
+    border: 1px dashed #000000;
 }
  
 
