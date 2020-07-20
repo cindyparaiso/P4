@@ -295,21 +295,27 @@ a:hover {
     line-height: 44px;
 }
 
-.navbar-brand img {
+.navbar-brand img:link {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
 }
+.navbar-brand img:visited,
 .navbar-brand img:hover,
-.navbar-brand img:focus {
+.navbar-brand img:focus,
+.navbar-brand img:active {
     background:#F8C7FF;
     border-radius: 9px;
-    border: 2px outset #000000; 
+    border-bottom: 0.23px solid #000000; 
 }
 
-.col-sm-6 img:hover {
+.col-sm-6 img:visited,
+.col-sm-6 img:hover,
+.col-sm-6 img:focus,
+.col-sm-6 img:active {
     border: 9px outset #F3976C;
 }
+
 .navbar-brand img[src$=svg] {
     min-width: 100px;
 }
@@ -335,14 +341,18 @@ a:hover {
     text-align: inherit;
 }
 
-.nav li a {
+.nav li a:link {
     text-decoration: underline;
     color: #000000;
     font-weight: bold; 
 }
+.nav > li a:visited {
+    color: #B63E45!important;
+}
 
 .nav > li a:hover,
-.nav > li a:focus {
+.nav > li a:focus,
+.nav > li a:active {
     background: #F3976C;
     color: #000000!important;
     font-weight: bolder;
@@ -507,25 +517,6 @@ button {
     box-shadow: none;
 }
 
-.scrollToTop {
-    width: 40px;
-    height: 40px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    opacity: 0;
-    z-index: 500;
-    transition: all .3s ease-in-out;
-}
-
-.scrollToTop span {
-    margin-top: 6px;
-}
-
-.showScrollTop {
-    font-size: 14px;
-    opacity: 1;
-}
 
 a[data-lightbox] {
     position: relative;
@@ -782,25 +773,33 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #F3976C!important;
     color: #303030!important;
 }
 
-.btn-atomic-tangerine:hover {
+.btn-atomic-tangerine:visited {
+    color: #303030!important;
+}
+
+.btn-atomic-tangerine:hover,
+.btn-atomic-tangerine:focus,
+.btn-atomic-tangerine:active {
     background: #303030!important;
     color: #F3976C!important;
 }
 
-.ltc-white {
+.ltc-white:link {
     color: #FFFFFF!important;
 }
 
-.ltc-white:hover {
-    color: #cccccc!important;
+.ltc-white:visited {
+    color: #EEE!important;
 }
 
-.ltc-atomic-tangerine {
-    color: #F3976C!important;
+.ltc-white:hover,
+.ltc-white:focus,
+.ltc-white:active {
+    color: #cccccc!important;
 }
 
 .ltc-atomic-tangerine:hover {
