@@ -301,19 +301,28 @@ a:hover {
     display: inline;
 }
 .navbar-brand img:visited,
-.navbar-brand img:hover,
+.navbar-brand img:hover{
+    background:#F8C7FF;
+    border-bottom: 0.23px solid #000000; 
+    border-radius: 9px; 
+}
+
 .navbar-brand img:focus,
 .navbar-brand img:active {
-    background:#F8C7FF;
+    background:#F5B5BB;
     border-radius: 9px;
     border-bottom: 0.23px solid #000000; 
 }
 
 .col-sm-6 img:visited,
-.col-sm-6 img:hover,
+.col-sm-6 img:hover {
+    border: 9px outset #F3976C;
+}
+
 .col-sm-6 img:focus,
 .col-sm-6 img:active {
-    border: 9px outset #F3976C;
+    border: 5px inset #303030;
+    border-radius: 9px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -777,7 +786,7 @@ h4 {
     color: #303030!important;
 }
 
-.btn-atomic-tangerine:visited {
+.btn-atomic-tangerine:visited, {
     color: #303030!important;
 }
 

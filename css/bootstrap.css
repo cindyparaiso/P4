@@ -3156,7 +3156,11 @@ output {
 }
 
 .form-control:visited,
-.form-control:hover,
+.form-control:hover {
+    border: 3.2px double #F8C7FF;
+    background: #FEFFFF!important;
+}
+
 .form-control:focus,
 .form-control:active {
     border-color: #F3976C!important;
